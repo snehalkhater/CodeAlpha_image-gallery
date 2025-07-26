@@ -1,4 +1,3 @@
-
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 let currentIndex = 0;
