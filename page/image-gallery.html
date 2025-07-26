@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my image gallery</title>
-  <link rel="Stylesheet" href=".//../css/image-gallery.css">
+  <link rel="Stylesheet" href="./../css/image-gallery.css">
 </head>
+
 <body>
-   <div class="heading-with-logo">
+  <div class="heading-with-logo">
     <img src="./../image/camera.png" class="logo-img" />
     <h1 class="gallery-title">Nature Image Gallery</h1>
-</div>
+  </div>
 
-<div class="filter-buttons">
+  <div class="filter-buttons">
     <button onclick="filterGallery('all')">All</button>
     <button onclick="filterGallery('nature')">Nature</button>
     <button onclick="filterGallery('animal')">Animal</button>
@@ -20,7 +22,7 @@
     <button onclick="filterGallery('trees')">Trees</button>
   </div>
 
-<div class="gallery-container">
+  <div class="gallery-container">
     <!-- Nature Images -->
     <div class="gallery-item nature">
       <img src="./../image/nature1.jpg" onclick="openLightbox(this.src)" alt="Nature 1">
@@ -37,6 +39,16 @@
     <div class="gallery-item nature">
       <img src="./../image/nature5.jpg" onclick="openLightbox(this.src)" alt="Nature 2">
     </div>
+     <div class="gallery-item nature">
+      <img src="./../image/nature6.jpg" onclick="openLightbox(this.src)" alt="Nature 3">
+    </div>
+    <div class="gallery-item nature">
+      <img src="./../image/nature7.jpg" onclick="openLightbox(this.src)" alt="Nature 1">
+    </div>
+    <div class="gallery-item nature">
+      <img src="./../image/nature8.jpg" onclick="openLightbox(this.src)" alt="Nature 2">
+    </div>
 
 </body>
+
 </html>
