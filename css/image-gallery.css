@@ -14,11 +14,13 @@
      gap: 15px;
      margin-top: 3px;
  }
+
  .logo-img {
      height: 90px;
      width: auto;
      object-fit: contain;
  }
+
  .gallery-title {
      margin-top: 30px;
      font-size: 2em;
@@ -45,7 +47,7 @@
  }
 
  .gallery-container {
-    background-color: #ffffff;
+     background-color: #ffffff;
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
      gap: 20px;
